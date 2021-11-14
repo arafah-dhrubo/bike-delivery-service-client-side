@@ -1,6 +1,6 @@
-# Bangla Bikers.
+# Miyata Bike niche website.
 
-This project is deployed on [Bangla Bikers](https://jaguar-authentication.web.app/).
+This project is deployed on [Miyata](https://headphone-252e3.web.app/).
 
 ## About the Website
 
