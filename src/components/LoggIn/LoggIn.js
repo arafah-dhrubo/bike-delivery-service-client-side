@@ -33,7 +33,7 @@ const LoggIn = () => {
 
   const saveUser = (email, displayName, method) => {
     const user = { email, displayName };
-    fetch("https://byke-app.herokuapp.com/users", {
+    fetch("http://localhost:5000/users", {
       method: method,
       headers: {
         "content-type": "application/json",

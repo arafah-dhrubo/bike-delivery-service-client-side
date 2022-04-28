@@ -6,7 +6,7 @@ const Explore = () => {
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
     setIsLoading(true);
-    fetch("https://byke-app.herokuapp.com/packages")
+    fetch("http://localhost:5000/packages")
       .then((res) => res.json())
       .then((data) => {
         setPackages(data);

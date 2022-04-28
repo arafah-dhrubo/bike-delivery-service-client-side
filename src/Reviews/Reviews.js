@@ -8,7 +8,7 @@ const Reviews = () => {
 
   useEffect(() => {
     setIsLoading(true);
-    fetch("https://byke-app.herokuapp.com/reviews")
+    fetch("http://localhost:5000/reviews")
       .then((res) => res.json())
       .then((data) => {
         setReviews(data);

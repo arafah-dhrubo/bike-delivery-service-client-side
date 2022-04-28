@@ -14,7 +14,7 @@ const Review = () => {
       description: descriptionRef.current.value,
       rating,
     };
-    fetch("https://byke-app.herokuapp.com/reviews", {
+    fetch("http://localhost:5000/reviews", {
       method: "POST",
       headers: {
         "content-type": "application/json",

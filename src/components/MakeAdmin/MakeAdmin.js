@@ -8,7 +8,7 @@ const MakeAdmin = () => {
   };
   const handelSubmit = (e) => {
     const user = { email };
-    fetch("https://byke-app.herokuapp.com/make/admin", {
+    fetch("http://localhost:5000/make/admin", {
       method: "PUT",
       headers: {
         "content-type": "application/json",

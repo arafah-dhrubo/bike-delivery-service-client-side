@@ -22,7 +22,7 @@ const Addproduct = () => {
       status: true,
     };
 
-    fetch("https://byke-app.herokuapp.com/addPackage", {
+    fetch("http://localhost:5000/addPackage", {
       method: "POST",
       headers: {
         "content-type": "application/json",
